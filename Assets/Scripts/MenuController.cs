@@ -27,7 +27,7 @@ public class MenuController : MonoBehaviour
 
         if (bestPlayerName != null)
         {
-            bestScoreText.text = "Best Score: " + bestPlayerName + ": " + bestScore;
+            bestScoreText.text = bestPlayerName + ": " + bestScore;
         }
     }
 
